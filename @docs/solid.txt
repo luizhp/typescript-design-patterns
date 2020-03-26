@@ -1,0 +1,40 @@
+★★★★★★★★★
+★ SOLID ★
+★★★★★★★★★
+
+⚫ Single Responsibility Principle
+
+    The single-responsibility principle is a computer-programming principle that states that every
+    module or class should have responsibility over a single part of the functionality provided by
+    the software, and that responsibility should be entirely encapsulated by the class, module or
+    function.
+
+
+⚫ Open Close Principle
+
+    In object-oriented programming, the open/closed principle states
+    "software entities (classes, modules, functions, etc.) should be open for extension,
+    but closed for modification"; that is, such an entity can allow its behaviour to be
+    extended without modifying its source code.
+
+
+⚫ Liskov’s Sustitution Principle
+
+    The Liskov Substitution Principle (LSP) states that subtypes must be substitutable for their base types.
+    Functions that use pointers or references to base classes must be able to use objects of derived
+    classes without knowing it.
+
+
+⚫ Interface Segregation Principle
+
+    According to Robert Martin, The interface-segregation principle (ISP) states that no client
+    should be forced to depend on methods it does not use.
+    ISP splits interfaces that are very large into smaller and more specific ones so that
+    clients will only have to know about the methods that are of interest to them.
+
+
+⚫ Dependency Inversion Principle
+
+    The Dependency Inversion Principle (DIP) states that high level modules should not
+    depend on low level modules; both should depend on abstractions.
+    Abstractions should not depend on details.  Details should depend upon abstractions. 

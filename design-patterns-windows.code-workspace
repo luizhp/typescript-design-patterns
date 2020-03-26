@@ -1,0 +1,76 @@
+{
+	"folders": [
+		{
+			"path": "@docs"
+		},
+		{
+			"path": "design-patterns\\behavioral-chain-of-responsibility"
+		},
+		{
+			"path": "design-patterns\\behavioral-command"
+		},
+		{
+			"path": "design-patterns\\behavioral-interpreter"
+		},
+		{
+			"path": "design-patterns\\behavioral-iterator"
+		},
+		{
+			"path": "design-patterns\\behavioral-mediator"
+		},
+		{
+			"path": "design-patterns\\behavioral-memento"
+		},
+		{
+			"path": "design-patterns\\behavioral-observer"
+		},
+		{
+			"path": "design-patterns\\behavioral-state"
+		},
+		{
+			"path": "design-patterns\\behavioral-strategy"
+		},
+		{
+			"path": "design-patterns\\behavioral-template-method"
+		},
+		{
+			"path": "design-patterns\\behavioral-visitor"
+		},
+		{
+			"path": "design-patterns\\creational-abstract-factory"
+		},
+		{
+			"path": "design-patterns\\creational-builder"
+		},
+		{
+			"path": "design-patterns\\creational-factory-method"
+		},
+		{
+			"path": "design-patterns\\creational-prototype"
+		},
+		{
+			"path": "design-patterns\\creational-singleton"
+		},
+		{
+			"path": "design-patterns\\structural-adapter"
+		},
+		{
+			"path": "design-patterns\\structural-bridge"
+		},
+		{
+			"path": "design-patterns\\structural-composite"
+		},
+		{
+			"path": "design-patterns\\structural-decorator"
+		},
+		{
+			"path": "design-patterns\\structural-facade"
+		},
+		{
+			"path": "design-patterns\\structural-flyweight"
+		},
+		{
+			"path": "design-patterns\\structural-proxy"
+		}
+	]
+}

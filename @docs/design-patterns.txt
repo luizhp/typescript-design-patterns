@@ -1,0 +1,74 @@
+★★★★★★★★★★★★★★★★★★★
+★ Design Patterns ★
+★★★★★★★★★★★★★★★★★★★
+
+⚫ Creational Patterns
+
+   These design patterns provide a way to create objects while hiding the creation logic,
+   rather than instantiating objects directly using new operator.
+   This gives program more flexibility in deciding which objects need to be created for a given use case.
+
+   ➼ Abstract Factory
+
+   ➼ Builder
+
+   ➼ Factory Method
+     Under some scenarios, a class cannot predict exactly what objects it will create, or its
+     subclasses may want to create more specified versions of these objects.
+     Then, the Factory Method Pattern can be applied.
+
+   ➼ Prototype
+
+   ➼ Singleton
+
+   ➼ Factory
+
+
+⚫ Structural Patterns
+
+   These design patterns concern class and object composition.
+   Concept of inheritance is used to compose interfaces and define ways to compose objects to obtain new functionalities.
+
+   ➼ Adapter
+
+   ➼ Bridge
+
+   ➼ Composite
+
+   ➼ Decorator
+     Decorator Pattern adds new functionality to an object dynamically, usually without compromising the original features.
+
+   ➼ Facade
+
+   ➼ Filter*
+
+   ➼ Flyweight
+
+   ➼ Proxy
+
+
+⚫ Behavioral Patterns
+
+   These design patterns are specifically concerned with communication between objects.
+
+   ➼ Chain of Responsibility
+
+   ➼ Command
+
+   ➼ Interpreter
+
+   ➼ Iterator
+
+   ➼ Mediator
+
+   ➼ Memento
+
+   ➼ Observer
+
+   ➼ State
+
+   ➼ Strategy
+
+   ➼ Template Method
+
+   ➼ Visitor

@@ -1,0 +1,34 @@
+★★★★★★★★★★
+★ Source ★
+★★★★★★★★★★
+
+⚫ Design Patterns
+
+   https://www.tutorialspoint.com/design_pattern/design_pattern_overview.htm
+
+
+⚫ Typescript Tutorial
+
+   https://www.youtube.com/playlist?list=PLzvRQMJ9HDiQyjtcrtvDkeQMJIrv5ABbm
+
+
+⚫ Typescript Design Patterns
+
+   https://www.udemy.com/course/typescript-design-patterns
+   https://github.com/gztchan/design-patterns-in-typescript
+   https://deviq.com/singleton/
+
+
+⚫ UML
+
+   https://www.uml-diagrams.org/visibility.html
+   https://www.uml-diagrams.org/class-reference.html
+   https://stackoverflow.com/a/40694853/5604238
+
+⚫ Else
+
+   ➼ AWS Tutorial
+     https://www.youtube.com/playlist?list=PLzvRQMJ9HDiSaiCYWnEMdQvldmXrdUOmv
+
+   ➼ NodeJs, TDD e Clean Architecture
+     https://www.youtube.com/playlist?list=PL9aKtVrF05DyEwK5kdvzrYXFdpZfj1dsG
