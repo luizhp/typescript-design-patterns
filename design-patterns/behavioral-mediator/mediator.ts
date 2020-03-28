@@ -19,8 +19,8 @@ class Colleague {
 }
 
 class ConcreteMediator implements Mediator {
-    public A: Colleague;
-    public B: Colleague;
+    public A!: Colleague;
+    public B!: Colleague;
 
     send(msg: String, sender: Colleague): void {
         if (sender === this.A) {

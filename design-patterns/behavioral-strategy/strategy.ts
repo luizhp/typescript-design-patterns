@@ -38,4 +38,4 @@ class Person {
 (function main() {
     const amanda = new Person('Amanda', new Running())
     amanda.workout()
-})()
+})();

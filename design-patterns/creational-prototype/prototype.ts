@@ -22,7 +22,7 @@ class BMW implements CarPrototype {
 }
 
 abstract class CarFactory {
-    abstract createCar(brand): CarPrototype;
+    abstract createCar(brand: string): CarPrototype;
 }
 
 class ChineseCarFactory extends CarFactory {
@@ -35,7 +35,7 @@ class ChineseCarFactory extends CarFactory {
         this.brands['BMW'] = new BMW()
     }
 
-    createCar(brand): CarPrototype {
+    createCar(brand: string): CarPrototype {
         return this.brands[brand].clone()
     }
 }

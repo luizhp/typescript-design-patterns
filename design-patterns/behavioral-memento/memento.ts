@@ -1,7 +1,7 @@
 class State {
     private _value: String;
 
-    constructor(value) {
+    constructor(value: String) {
         this._value = value;
     }
 
@@ -63,7 +63,7 @@ class Originator implements StateInterface {
 }
 
 class CareTaker {
-    private _memento: Memento;
+    private _memento!: Memento;
 
     public set memento(memento: Memento) {
         // memento saved

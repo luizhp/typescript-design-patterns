@@ -34,5 +34,5 @@ class ProductFactory implements Factory {
 (function main() {
     const factory = new ProductFactory();
     const product = factory.createProduct('product-a');
-    product?.doSomething();
+    if (product) product.doSomething();
 })();

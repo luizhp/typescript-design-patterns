@@ -38,9 +38,9 @@ class FastFood {
 
 class Mcdonalds implements FastFoodBuilder {
 
-    private _meal: Object = {};
+    private _meal: any = { ["key"]: Object };
 
-    constructor(options) {
+    constructor(options: Object) {
         console.log('basic info');
     }
 
@@ -81,7 +81,7 @@ class Mcdonalds implements FastFoodBuilder {
     const mcd: Mcdonalds = new Mcdonalds({ location: 'Zhujiang New Town, Canton, China' });
     const meal: FastFood = mcd
         .buildBurger('Big Mac', { sauce: false })
-        .buildCola(Size.Medium, { ice: false })
+        //.buildCola(Size.Medium, { ice: false })
         .buildFries(Size.Big, { 'sauce-amount': 2 })
         .getMeal();
     console.log(meal);

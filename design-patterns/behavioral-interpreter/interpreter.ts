@@ -1,16 +1,16 @@
 class Context {
-    private _output;
-    private _input;
+    private _output!: string;
+    private _input!: string;
 
-    constructor(input) {
+    constructor(input: string) {
         this._input = input;
     }
 
-    public set input(value) {
+    set input(value: string) {
         this._input = value;
     }
 
-    public get output() {
+    get output(): string {
         return this._output;
     }
 }

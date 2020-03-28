@@ -3,8 +3,8 @@ interface Visitable {
 }
 
 interface IVisitor {
-    visitMainItem?(mainItem: MainItem): void;
-    visitSideItem?(sideItem: SideItem): void;
+    visitMainItem(mainItem: MainItem): void;
+    visitSideItem(sideItem: SideItem): void;
 }
 
 class MainItem implements Visitable {
@@ -40,20 +40,18 @@ class DecorateVisitor implements IVisitor {
 }
 
 class ItemsGroup implements Visitable {
-    private _items: Object[];
+    private _items: Visitable[];
 
     constructor() {
         this._items = [];
     }
 
-    public addItem(item: Object) {
+    public addItem(item: Visitable) {
         this._items.push(item);
     }
 
     accept(visitor: IVisitor): void {
-        this._items.map((item: Visitable) => {
-            item.accept(visitor);
-        });
+        this._items.map((item: Visitable) => item.accept(visitor));
     }
 }
 
