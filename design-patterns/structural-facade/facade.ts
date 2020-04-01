@@ -1,17 +1,17 @@
 class EngineSystem {
-    activate() {
+    activate(): void {
         console.log('Activate the engine');
     }
 }
 
 class MonitorSystem {
-    check() {
+    check(): void {
         console.log('Check system situations');
     }
 }
 
 class OxygenSystem {
-    generate() {
+    generate(): void {
         console.log('Oxygen will be generated');
     }
 }
@@ -32,7 +32,6 @@ class RocketTestingOperation {
         this._monitorSys.check();
         this._oxygenSys.generate();
         this._engineSys.activate();
-
     }
 }
 
