@@ -30,6 +30,10 @@
    Concept of inheritance is used to compose interfaces and define ways to compose objects to obtain new functionalities.
 
    ➼ Adapter
+     Allows to make different classes with different interfaces to work together without changing their source code.
+     Convert the interface of a class into another interface clients expect.
+     Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+     Also Known As Wrapper.
 
    ➼ Bridge
 
@@ -38,9 +42,9 @@
    ➼ Decorator
      Decorator Pattern adds new functionality to an object dynamically, usually without compromising the original features.
 
-   ➼ Facade
+   ➼ Façade
      Provide a unified interface to a set of interfaces in a subsystem.
-     Facade defines a higher-level interface that makes the subsystem easier to use.
+     Façade defines a higher-level interface that makes the subsystem easier to use.
 
    ➼ Filter*
 
