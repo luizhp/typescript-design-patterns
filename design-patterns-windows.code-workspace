@@ -4,73 +4,88 @@
 			"path": "@docs"
 		},
 		{
-			"path": "design-patterns\\behavioral-chain-of-responsibility"
+			"path": "design-patterns\\patterns\\pattern-behavioral-chain-of-responsibility"
 		},
 		{
-			"path": "design-patterns\\behavioral-command"
+			"path": "design-patterns\\patterns\\pattern-behavioral-command"
 		},
 		{
-			"path": "design-patterns\\behavioral-interpreter"
+			"path": "design-patterns\\patterns\\pattern-behavioral-interpreter"
 		},
 		{
-			"path": "design-patterns\\behavioral-iterator"
+			"path": "design-patterns\\patterns\\pattern-behavioral-iterator"
 		},
 		{
-			"path": "design-patterns\\behavioral-mediator"
+			"path": "design-patterns\\patterns\\pattern-behavioral-mediator"
 		},
 		{
-			"path": "design-patterns\\behavioral-memento"
+			"path": "design-patterns\\patterns\\pattern-behavioral-memento"
 		},
 		{
-			"path": "design-patterns\\behavioral-observer"
+			"path": "design-patterns\\patterns\\pattern-behavioral-observer"
 		},
 		{
-			"path": "design-patterns\\behavioral-state"
+			"path": "design-patterns\\patterns\\pattern-behavioral-state"
 		},
 		{
-			"path": "design-patterns\\behavioral-strategy"
+			"path": "design-patterns\\patterns\\pattern-behavioral-strategy"
 		},
 		{
-			"path": "design-patterns\\behavioral-template-method"
+			"path": "design-patterns\\patterns\\pattern-behavioral-template-method"
 		},
 		{
-			"path": "design-patterns\\behavioral-visitor"
+			"path": "design-patterns\\patterns\\pattern-behavioral-visitor"
 		},
 		{
-			"path": "design-patterns\\creational-abstract-factory"
+			"path": "design-patterns\\patterns\\pattern-creational-abstract-factory"
 		},
 		{
-			"path": "design-patterns\\creational-builder"
+			"path": "design-patterns\\patterns\\pattern-creational-builder"
 		},
 		{
-			"path": "design-patterns\\creational-factory-method"
+			"path": "design-patterns\\patterns\\pattern-creational-factory-method"
 		},
 		{
-			"path": "design-patterns\\creational-prototype"
+			"path": "design-patterns\\patterns\\pattern-creational-prototype"
 		},
 		{
-			"path": "design-patterns\\creational-singleton"
+			"path": "design-patterns\\patterns\\pattern-creational-singleton"
 		},
 		{
-			"path": "design-patterns\\structural-adapter"
+			"path": "design-patterns\\patterns\\pattern-structural-adapter"
 		},
 		{
-			"path": "design-patterns\\structural-bridge"
+			"path": "design-patterns\\patterns\\pattern-structural-bridge"
 		},
 		{
-			"path": "design-patterns\\structural-composite"
+			"path": "design-patterns\\patterns\\pattern-structural-composite"
 		},
 		{
-			"path": "design-patterns\\structural-decorator"
+			"path": "design-patterns\\patterns\\pattern-structural-decorator"
 		},
 		{
-			"path": "design-patterns\\structural-facade"
+			"path": "design-patterns\\patterns\\pattern-structural-facade"
 		},
 		{
-			"path": "design-patterns\\structural-flyweight"
+			"path": "design-patterns\\patterns\\pattern-structural-flyweight"
 		},
 		{
-			"path": "design-patterns\\structural-proxy"
+			"path": "design-patterns\\patterns\\pattern-structural-proxy"
+		},
+		{
+			"path": "design-patterns\\principles\\solid\\solid-01-single-responsibility-principle"
+		},
+		{
+			"path": "design-patterns\\principles\\solid\\solid-02-open-closed-principle"
+		},
+		{
+			"path": "design-patterns\\principles\\solid\\solid-03-liskov-substitution-principle"
+		},
+		{
+			"path": "design-patterns\\principles\\solid\\solid-04-interface-segregation-principle"
+		},
+		{
+			"path": "design-patterns\\principles\\solid\\solid-05-dependency-inversion-principle"
 		}
 	]
 }
